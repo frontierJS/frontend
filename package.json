@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@frontierjs/frontend",
   "version": "0.0.1",
   "description": "FrontierJS: SPA Toolkit",
   "main": "index.js",
