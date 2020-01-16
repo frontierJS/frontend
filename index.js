@@ -1,4 +1,4 @@
-let {auth, ajx, currentUser } = require('./frontier-frontend')
+let {auth, ajx, currentUser } = require('./frontend')
 let jsonp = require('./jsonp')
 
 module.exports = {
