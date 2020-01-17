@@ -1,0 +1,23 @@
+{
+  "name": "@frontierjs/frontend",
+  "version": "0.0.0-beta.0",
+  "description": "FrontierJS: A SPA Toolkit",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontierJS/frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontierJS/frontend/issues"
+  },
+  "homepage": "https://github.com/frontierJS/frontend#readme"
+}

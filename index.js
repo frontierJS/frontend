@@ -1,5 +1,5 @@
-let {auth, ajx, currentUser } = require('./frontend')
-let jsonp = require('./jsonp')
+let {auth, ajx, currentUser } = require('./front')
+let jsonp = require('.lib/jsonp')
 
 module.exports = {
     auth,
