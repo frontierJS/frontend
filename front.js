@@ -2,6 +2,13 @@
 * Frontier App Management
 *
 * */
+
+//TODO: Try moving this to require and try/catch stmt
+//try {  
+    //const env = require('../../../.env.js');
+//} catch (err) {
+    //// send error to log file
+//}
 import env from '../../../.env.js'
 import { writable, derived } from 'svelte/store';
 
