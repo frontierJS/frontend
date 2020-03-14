@@ -106,8 +106,8 @@ const destroy = function(url) {
     })
 }
 
-const patch = function(url) {
-    return ajax(url, null, {
+const patch = function(url, data) {
+    return ajax(url, data, {
         method: 'PATCH'
     })
 }
