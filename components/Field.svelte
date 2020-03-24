@@ -7,9 +7,10 @@
     export let errors = []
     export let help = ''
     export let required = false
+    export let classes = ""
 </script>
 
-<fieldset class="field">
+<fieldset class="field {classes}">
     <div class='control'>
         {#if type === 'text'}
             <input type='text' {name} bind:value {placeholder} {required}>
